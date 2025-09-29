@@ -7,6 +7,7 @@ public class Main {
         testFactorialGivenRightArg0RunsWell();
         testFactorialGivenRightArg5RunsWell();
         testFactorialGivenRightArg6RunsWell();
+        testFactorialGivenWrongArgMinus5ThrowsException();
     }
 
 //    TEST CASE #1L: Check/Verify getFactorial method with valid parameter, e.g. n = 0
@@ -46,7 +47,7 @@ public class Main {
         System.out.println("5! expected: " + expectedValue);
         System.out.println("5! actual: " + actualValue);
     }
-    //    TEST CASE #2L: Check/Verify getFactorial method with valid parameter, e.g. n = 2
+    //    TEST CASE #3L: Check/Verify getFactorial method with valid parameter, e.g. n = 2
 //        STEPS/PRODUCE:
 //     1. Given a valid n, e.g. n = 5
 //     2. Call/invoke getFactorial(n = 5)
@@ -56,5 +57,19 @@ public class Main {
 
     public static void testFactorialGivenRightArg6RunsWell() {
         System.out.println("6! expected = 720 | actual " + MathUtility.getFactorial(6));
+    }
+    //    TEST CASE #4L: Check/Verify getFactorial method with valid parameter, e.g. n = 2
+//        STEPS/PRODUCE:
+//     1. Given a valid n, e.g. n = -5
+//     2. Call/invoke getFactorial(n = -5)
+//        3. Execute
+//        EXPECTED RESULT:
+//        the method will throw an exception
+//        STATUS: PASSED HAY FAILED Đoán xem, chạy app đã !!!
+    public static void testFactorialGivenWrongArgMinus5ThrowsException() {
+        MathUtility.getFactorial(-5); //PASSED VÌ KÌ VỌNG NGOẠI LỆ XH,
+        // VÀ NGOẠI LỆ XH THẬT!!!!!
+        // THẤY NGOẠI LỆ MÀ PASSED LÀ TÌNH HUỐNG TA THIẾT KẾ HÀM SẼ XẢY RA NGOẠI LỆ VỚI
+        //SỐ ÂM GIAI THỪA!!!!
     }
 }
