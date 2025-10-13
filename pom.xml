@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tak</groupId>
+    <artifactId>mathutil</artifactId>
+    <version>67.89</version>
+
+     <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+<!--    đây là nơi khai báo các thư viện lập trình mình sẽ dùng trong app- thư viện laooj trình - library chẳng qua là cái file "nhị phân" ai đó làm sẵn, chứa 1 đống class và các hàm có sẵn cho ae dev dùng trong CODE
+    Ví dụ mình cần export data ra file pdf, hay import từ excel, ta sẽ thêm thư viện trên mạng có sẵn tính năng này, tải vè, add vào project, import package.class tương ứng để gõ code
+        TÌM, TẢI, ADD, IMPORT, DÙNG (khai báo biến, new object, chấm gọi tên hàng)
+
+        THƯ VIỆN KỂ TỪ NAY VỀ SAU, GỌI TÊN MỚI: DEPENDENCY, TẢI DEPENDENCY VỀ, ADD DEPENDENCY VÀO PROJECT, IMPORT DEPENDENCY...
+    -->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>6.0.0-RC3</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
