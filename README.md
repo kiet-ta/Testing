@@ -4,7 +4,7 @@
 
 * A Maven source code to demonstrate the Math Utility class
 * A Unit Testing source code using Junit Testing Framework
-* A TDD,DDT source code
+* A TDD, DDT source code
 * A CI (Continuos Integration) script
 * and more
 
