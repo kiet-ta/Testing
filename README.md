@@ -1,3 +1,6 @@
+[![Math Utility Project (CI included) | © 2025 by tak](https://github.com/kiet-ta/Testing/actions/workflows/ci-script.yml/badge.svg)](https://github.com/kiet-ta/Testing/actions/workflows/ci-script.yml)
+
+
 # Welcome to Math Utility Project
 
 ### You will find in this repo the following stuff:
