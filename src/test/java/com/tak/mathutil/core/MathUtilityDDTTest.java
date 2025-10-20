@@ -13,7 +13,7 @@ class MathUtilityDDTTest {
         Object [][] dataset = {
                 {5, 120},
                 {6, 720},
-                {4, 24},
+                {4, 240},
                 {2, 2},
                 {1, 1},
                 {0, 1}
